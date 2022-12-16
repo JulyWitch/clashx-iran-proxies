@@ -1,0 +1,1 @@
+A handmade list of clashx proxies that actually work in iran
