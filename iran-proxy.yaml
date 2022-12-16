@@ -48,11 +48,8 @@ proxy-groups:
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
-proxy-providers:
-  us:
-    type: http
-    url: http://www.gstatic.com/generate_204
-    interval: 300
+  - name: us
+    type: select
     proxies:
     - {"name":"🇺🇸US_209 | sspool","server":"107.181.161.163","type":"trojan","country":"🇺🇸US","port":443,"password":"d1478689-439c-4590-b7ce-36e786a02dc3","skip-cert-verify":true,"udp":true}
     - {"name":"🇺🇸US_222 | sspool","server":"youtube-bai-piao-wang-zhe-usa.98848.xyz","type":"trojan","country":"🇺🇸US","port":443,"password":"d1478689-439c-4590-b7ce-36e786a02dc3","skip-cert-verify":true,"udp":true}
@@ -68,19 +65,38 @@ proxy-providers:
     - {"name":"🇺🇸US_164 | sspool","server":"38.68.135.18","type":"ss","country":"🇺🇸US","port":5500,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
     - {"name":"🇺🇸US_186 | sspool","server":"38.68.135.19","type":"ss","country":"🇺🇸US","port":2376,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
     - {"name":"🇺🇸US_182 | sspool","server":"38.64.138.145","type":"ss","country":"🇺🇸US","port":6679,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
+    - {"name":"🇺🇸 US_1021 | proxypool.fly.dev","server":"172.99.190.39","type":"ss","country":"🇺🇸 US","port":9102,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
+    - {"name":"🇺🇸 US_1024 | proxypool.fly.dev","server":"172.99.190.39","type":"ss","country":"🇺🇸 US","port":3306,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+    - {"name":"🇺🇸 US_1025 | proxypool.fly.dev","server":"172.99.190.39","type":"ss","country":"🇺🇸 US","port":7306,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
+    - {"name":"🇺🇸 US_1043 | proxypool.fly.dev","server":"38.64.138.145","type":"ss","country":"🇺🇸 US","port":8080,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+    - {"name":"🇺🇸 US_1054 | proxypool.fly.dev","server":"38.64.138.145","type":"ss","country":"🇺🇸 US","port":5500,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+    - {"name":"🇺🇸 US_1057 | proxypool.fly.dev","server":"38.64.138.145","type":"ss","country":"🇺🇸 US","port":2376,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+    - {"name":"🇺🇸 US_1062 | proxypool.fly.dev","server":"38.75.136.102","type":"ss","country":"🇺🇸 US","port":5004,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
+    - {"name":"🇺🇸 US_1064 | proxypool.fly.dev","server":"172.99.190.87","type":"ss","country":"🇺🇸 US","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+    - {"name":"🇺🇸 US_1065 | proxypool.fly.dev","server":"172.99.190.87","type":"ss","country":"🇺🇸 US","port":8008,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
+    - {"name":"🇺🇸 US_1067 | proxypool.fly.dev","server":"167.88.63.99","type":"ss","country":"🇺🇸 US","port":7306,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
+    - {"name":"🇺🇸 US_1072 | proxypool.fly.dev","server":"167.88.61.175","type":"ss","country":"🇺🇸 US","port":8888,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+    - {"name":"🇺🇸 US_1077 | proxypool.fly.dev","server":"38.114.114.49","type":"ss","country":"🇺🇸 US","port":7306,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
+    - {"name":"🇺🇸 US_1097 | proxypool.fly.dev","server":"38.114.114.67","type":"ss","country":"🇺🇸 US","port":8091,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
+    - {"name":"🇺🇸 US_1101 | proxypool.fly.dev","server":"167.88.63.79","type":"ss","country":"🇺🇸 US","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
+    - {"name":"🇺🇸 US_1106 | proxypool.fly.dev","server":"38.68.134.191","type":"ss","country":"🇺🇸 US","port":7306,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
+    - {"name":"🇺🇸 US_1255 | proxypool.fly.dev","server":"172.99.190.7","type":"ss","country":"🇺🇸 US","port":8090,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
+    - {"name":"🇺🇸 US_1257 | proxypool.fly.dev","server":"172.99.188.71","type":"ss","country":"🇺🇸 US","port":8882,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
+    - {"name":"🇺🇸 US_1260 | proxypool.fly.dev","server":"172.99.190.39","type":"ss","country":"🇺🇸 US","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+    - {"name":"🇺🇸 US_1262 | proxypool.fly.dev","server":"172.99.190.149","type":"ss","country":"🇺🇸 US","port":7307,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
+    - {"name":"🇺🇸 US_1270 | proxypool.fly.dev","server":"172.99.190.39","type":"ss","country":"🇺🇸 US","port":3389,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+    - {"name":"🇺🇸 US_1349 | proxypool.fly.dev","server":"172.99.190.39","type":"ss","country":"🇺🇸 US","port":5600,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+    - {"name":"🇺🇸 US_1431 | proxypool.fly.dev","server":"172.99.190.87","type":"ss","country":"🇺🇸 US","port":6679,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
 
-  de:
-    type: http
-    interval: 300
-    url: http://www.gstatic.com/generate_204
+  - name: de
+    type: select
     proxies:
     - {"name":"🇩🇪DE_72 | sspool","server":"193.108.117.75","type":"ss","country":"🇩🇪DE","port":8090,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
     - {"name":"🇩🇪DE_69 | sspool","server":"193.108.117.75","type":"ss","country":"🇩🇪DE","port":2376,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
-  gb:
-    type: http
-    interval: 300
-    url: http://www.gstatic.com/generate_204
+  - name: gb
+    type: select
     proxies:
+    - {"name":"🇬🇧 GB_621","server":"78.129.253.9","type":"ss","country":"🇬🇧 GB","port":809,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
 
 rule-providers:
   iran:
