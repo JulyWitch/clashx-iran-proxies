@@ -157,6 +157,8 @@ rules:
   - DOMAIN,whatsapp.com,DIRECT
   - DOMAIN,meet.google.com,DIRECT
   - DOMAIN,web.whatsapp.com,DIRECT
+  - DOMAIN,uk.ac.ir,DIRECT
+  - DOMAIN,nut.uk.ac.ir,DIRECT
   - SRC-IP-CIDR,192.168.1.201/32,DIRECT
   - IP-CIDR,127.0.0.0/8,DIRECT
   - IP-CIDR6,2620:0:2d0:200::7/32,DIRECT
