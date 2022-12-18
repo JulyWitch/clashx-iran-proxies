@@ -11,4 +11,3 @@ https://raw.githubusercontent.com/JulyWitch/clashx-iran-proxies/master/iran-prox
 
 - پروکسی‌های قابل استفاده در ایران
 - رکوئست به سایت های ایرانی بدون استفاده از پروکسی‌ها
-- استفاده از https://shecan.ir
