@@ -406,6 +406,477 @@ proxies:
       "udp": true,
       "uuid": "31f7a663-c59c-3342-4674-5eaccc1b2a2c",
     }
+  - {
+      "type": "vmess",
+      "name": "US Microsoft Data Center 1 | freefq",
+      "ws-opts": { "path": "/", "headers": { "host": "YouTube-aweikeji" } },
+      "server": "hk1.ningmengshui.cyou",
+      "port": "80",
+      "uuid": "172f1bab-1f72-4de3-b857-b363422cf1a9",
+      "alterId": "0",
+      "cipher": "auto",
+      "network": "ws",
+    }
+  - {
+      "type": "vmess",
+      "name": "Japan 2 | freefq",
+      "ws-opts":
+        {
+          "path": "/das3218ssxc",
+          "headers": { "host": "xjp1.mvzaixian3.com" },
+        },
+      "server": "xjp1.mvzaixian3.com",
+      "port": "443",
+      "uuid": "776352ac-0a91-3d71-8450-d3b3a2b43c73",
+      "alterId": "0",
+      "cipher": "auto",
+      "network": "ws",
+      "tls": true,
+    }
+  - {
+      "type": "vmess",
+      "name": "Microsoft, San Clara, California, USA 3 | freefq",
+      "server": "testha1.yunyunyund.win",
+      "port": "7100",
+      "uuid": "59889793-93f0-3f24-870b-2d77a4602d54",
+      "alterId": "0",
+      "cipher": "auto",
+      "network": "tcp",
+    }
+  - {
+      "type": "vmess",
+      "name": "Japan 4 | freefq",
+      "ws-opts": { "path": "/book", "headers": { "host": "do7.yyhm9.com" } },
+      "server": "do7.yyhm9.com",
+      "port": "443",
+      "uuid": "776352ac-0a91-3d71-8450-d3b3a2b43c73",
+      "alterId": "0",
+      "cipher": "auto",
+      "network": "ws",
+      "tls": true,
+    }
+  - {
+      "type": "vmess",
+      "name": "US Microsoft Data Center 5 | freefq",
+      "ws-opts": { "path": "/", "headers": { "host": "YouTube-aweikeji" } },
+      "server": "hk1.ningmengshui.cyou",
+      "port": "80",
+      "uuid": "faecfd23-4636-4a3b-a851-ce1e088d9763",
+      "alterId": "0",
+      "cipher": "auto",
+      "network": "ws",
+    }
+  - {
+      "type": "vmess",
+      "name": "Australia KOOWEERUPSECONDaryCollege6 | freefq",
+      "ws-opts":
+        { "path": "/5QNROSRV", "headers": { "host": "oplg1.zhujicn2.com" } },
+      "server": "203.30.189.190",
+      "port": "443",
+      "uuid": "56a2188b-2ab7-402c-b9b8-34847fdf0958",
+      "alterId": "0",
+      "cipher": "auto",
+      "network": "ws",
+      "tls": true,
+    }
+  - {
+      "type": "vmess",
+      "name": "OracleCorporation7, Sweden | freefq",
+      "ws-opts": { "path": "/roewesu" },
+      "server": "141.147.181.219",
+      "port": 443,
+      "uuid": "0b873cff-11ab-4716-c41a-04f886135091",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "ws",
+      "tls": true,
+    }
+  - {
+      "type": "trojan",
+      "name": "British Social Insurance Security Department 8 | freefq",
+      "server": "uk1.trojanvh.xyz",
+      "port": 80,
+      "password": "b640d791-ff83-4300-b509-c2a02f97f167",
+      "udp": true,
+      "skip-cert-verify": true,
+    }
+  - {
+      "type": "vmess",
+      "name": "American cloudflare company CDN node 9 | freefq",
+      "ws-opts": { "path": "/myblog" },
+      "server": "51fly99.win",
+      "port": "443",
+      "uuid": "fefe2ff7-153c-41a8-aa04-e8d2e641505c",
+      "alterId": "0",
+      "cipher": "auto",
+      "network": "ws",
+      "tls": true,
+    }
+  - {
+      "type": "vmess",
+      "name": "HP 10 | freefq",
+      "ws-opts": { "path": "/fastssh", "headers": { "host": "zoom.us" } },
+      "server": "15.235.163.44",
+      "port": "80",
+      "uuid": "52573c40-7e29-11ed-b539-205c6d5f5d78",
+      "alterId": "0",
+      "cipher": "auto",
+      "network": "ws",
+    }
+  - {
+      "type": "vmess",
+      "name": "American cloudflare company CDN node 11 | freefq",
+      "ws-opts":
+        { "path": "/aries", "headers": { "host": "BuyVM.CLOUDFLARE.QUEST" } },
+      "server": "104.19.26.79",
+      "port": "2086",
+      "uuid": "e91c45c9-2c0f-46a9-c56d-21663b9e2c18",
+      "alterId": "0",
+      "cipher": "auto",
+      "network": "ws",
+    }
+  - {
+      "type": "vmess",
+      "name": "American Alabanza12 | freefq",
+      "ws-opts": { "path": "/" },
+      "server": "65.109.3.40",
+      "port": 52514,
+      "uuid": "db5b508e-b943-4f41-a8bf-b2852c725519",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "ws",
+    }
+  - {
+      "type": "trojan",
+      "name": "American 13 | freefq",
+      "server": "us2.trojanvh.xyz",
+      "port": 80,
+      "password": "011eb011-c68e-4f92-80eb-f9bbef707bef",
+      "udp": true,
+      "skip-cert-verify": true,
+    }
+  - {
+      "type": "vmess",
+      "name": "American Cloudflare Node 14 | freefq",
+      "ws-opts": { "path": "/vmess", "headers": { "host": "us-v.sshmax.xyz" } },
+      "server": "cacerts.digicert.com",
+      "port": "443",
+      "uuid": "fd4fa030-b8f1-424b-a780-578dbb59f950",
+      "alterId": "0",
+      "cipher": "auto",
+      "network": "ws",
+      "tls": true,
+    }
+  - {
+      "type": "vmess",
+      "name": "American cloudflare company CDN node 15 | freefq",
+      "ws-opts":
+        { "path": "/aries", "headers": { "host": "gcorehk.cloudflare.quest" } },
+      "server": "104.17.150.148",
+      "port": "2086",
+      "uuid": "7a8a19ec-94f5-4262-edbe-a308e1d0c66d",
+      "alterId": "0",
+      "cipher": "auto",
+      "network": "ws",
+    }
+  - {
+      "type": "vmess",
+      "name": "Malaysia 16 | freefq",
+      "ws-opts": { "path": "/path/051111230910" },
+      "server": "118.107.244.80",
+      "port": 443,
+      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+      "alterId": 64,
+      "cipher": "auto",
+      "network": "ws",
+      "tls": true,
+    }
+  - {
+      "type": "vmess",
+      "name": "American Cloudflare Node 17 | freefq",
+      "ws-opts": { "path": "/hkaa0", "headers": { "host": "sg1021.hkaa0.tk" } },
+      "server": "172.67.34.78",
+      "port": "8880",
+      "uuid": "a5c804aa-8a4d-4fd2-97a1-4f0cc1384953",
+      "alterId": "0",
+      "cipher": "auto",
+      "network": "ws",
+    }
+  - {
+      "type": "vmess",
+      "name": "American cloudflare company CDN node 18 | freefq",
+      "ws-opts":
+        {
+          "path": "/shirker",
+          "headers": { "host": "sg-gcore-2.sharecentre.online" },
+        },
+      "server": "104.19.162.144",
+      "port": 443,
+      "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "ws",
+      "tls": true,
+    }
+  - {
+      "type": "vmess",
+      "name": "Sydney, Australia 19 | freefq",
+      "ws-opts":
+        { "path": "/ECTCJ0DF", "headers": { "host": "lg1.trump2023.us" } },
+      "server": "203.24.108.8",
+      "port": "443",
+      "uuid": "40d496a6-ceeb-4096-baeb-4cc52b205621",
+      "alterId": "0",
+      "cipher": "auto",
+      "network": "ws",
+      "tls": true,
+    }
+  - {
+      "type": "vmess",
+      "name": "American cloudflare node 20 | freefq",
+      "ws-opts":
+        { "path": "/p9Dq67Nx/", "headers": { "host": "fr1.cachexy.ga" } },
+      "server": "172.67.199.34",
+      "port": 443,
+      "uuid": "4e21574f-1796-4f0a-86c0-4430fe99d3a1",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "ws",
+      "tls": true,
+    }
+  - {
+      "type": "vmess",
+      "name": "American cloudflare company CDN node 21 | freefq",
+      "ws-opts":
+        { "path": "/UMW36262", "headers": { "host": "v2ray1.zhujicn2.org" } },
+      "server": "cacerts.digicert.com",
+      "port": 443,
+      "uuid": "9379fea0-006d-4fd3-8e35-d45a5af72aa2",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "ws",
+      "tls": true,
+    }
+  - {
+      "type": "vmess",
+      "name": "American cloudflare node 22 | freefq",
+      "ws-opts":
+        { "path": "/A2DJOPFT", "headers": { "host": "lg10.cfcdn1.xyz" } },
+      "server": "141.101.114.32",
+      "port": "443",
+      "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a",
+      "alterId": "0",
+      "cipher": "auto",
+      "network": "ws",
+      "tls": true,
+    }
+  - {
+      "type": "vmess",
+      "name": "Singapore DIGITALOCEAN data center 23 | freefq",
+      "ws-opts": { "path": "/graphql" },
+      "server": "157.230.36.235",
+      "port": 80,
+      "uuid": "b484d576-b3e3-4ac5-b108-88a300dfe7e3",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "ws",
+    }
+  - {
+      "type": "vmess",
+      "name": "American cloudflare company CDN node 24 | freefq",
+      "ws-opts": { "path": "/wafa/", "headers": { "host": "lg.iwafa.tk" } },
+      "server": "ads.phonepe.com",
+      "port": "80",
+      "uuid": "11288503-4f79-4659-a033-bf538ab14499",
+      "alterId": "0",
+      "cipher": "auto",
+      "network": "ws",
+    }
+  - {
+      "type": "vmess",
+      "name": "Russia 25 | freefq",
+      "server": "88.210.37.18",
+      "port": 38746,
+      "uuid": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "auto",
+      "tls": true,
+    }
+  - {
+      "type": "vmess",
+      "name": "Texas, USA 26 | freefq",
+      "ws-opts":
+        {
+          "path": "/dongtaiwang.com",
+          "headers": { "host": "clash6.ssr-free.xyz" },
+        },
+      "server": "34.145.145.76",
+      "port": "443",
+      "uuid": "5f64fa65-7b14-49c5-954d-aa15c6bfcacd",
+      "alterId": "0",
+      "cipher": "auto",
+      "network": "ws",
+      "tls": true,
+    }
+  - {
+      "type": "vmess",
+      "name": "American cloudflare company CDN node 27 | freefq",
+      "ws-opts":
+        { "path": "/sshocean", "headers": { "host": "uk2.v2rayserv.com" } },
+      "server": "powerservice.com",
+      "port": 443,
+      "uuid": "0764a598-82c4-4b41-ba10-551a625beed5",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "ws",
+      "tls": true,
+    }
+  - {
+      "type": "vmess",
+      "name": "American Cloudflare Node 28 | freefq",
+      "ws-opts":
+        { "path": "/9JZFDTKE", "headers": { "host": "fr1.trump2023.org" } },
+      "server": "172.67.199.34",
+      "port": "443",
+      "uuid": "2b214122-1906-428a-bbb7-a039cbb7cd5c",
+      "alterId": "0",
+      "cipher": "auto",
+      "network": "ws",
+      "tls": true,
+    }
+  - {
+      "type": "vmess",
+      "name": "American Cloudflare Node 29 | freefq",
+      "ws-opts":
+        {
+          "path": "/dsadsa1dsadsa33434",
+          "headers": { "host": "xjp4h.mayaa.ml" },
+        },
+      "server": "xjp4h.mayaa.ml",
+      "port": 443,
+      "uuid": "82d5ea73-8002-4319-cd3c-29d1560bd290",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "ws",
+      "tls": true,
+    }
+  - {
+      "type": "vmess",
+      "name": "American 30 | freefq",
+      "ws-opts": { "path": "/" },
+      "server": "198.244.232.39",
+      "port": 2096,
+      "uuid": "df46384b-1ad5-40a6-812e-48d60fb80283",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "ws",
+    }
+  - {
+      "type": "vmess",
+      "name": "American Cloudflare Node 31 | freefq",
+      "ws-opts":
+        {
+          "path": "/sshkit/fdfadsfa/63848bfe228fd/",
+          "headers": { "host": "us-lb.sshkit.org" },
+        },
+      "server": "172.67.199.34",
+      "port": 443,
+      "uuid": "6fea1649-425b-4092-bf53-29792152c925",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "ws",
+      "tls": true,
+    }
+  - {
+      "type": "vmess",
+      "name": "American Cloudflare Node 32 | freefq",
+      "ws-opts": { "path": "/shares", "headers": { "host": "la.awsbest.com" } },
+      "server": "cacerts.digicert.com",
+      "port": "443",
+      "uuid": "8b6dd709-4d4e-4b92-f542-54a676efbfe4",
+      "alterId": "0",
+      "cipher": "auto",
+      "network": "ws",
+      "tls": true,
+    }
+  - {
+      "type": "vmess",
+      "name": "American cloudflare company CDN node 33 | freefq",
+      "ws-opts":
+        {
+          "path": "/pineapple",
+          "headers": { "host": "PineApple.CLOUDFLARE.QUEST" },
+        },
+      "server": "104.18.100.193",
+      "port": "2082",
+      "uuid": "36fa45db-2d4a-4295-a1fe-223836989878",
+      "alterId": "0",
+      "cipher": "auto",
+      "network": "ws",
+    }
+  - {
+      "type": "vmess",
+      "name": "American cloudflare company CDN node 34 | freefq",
+      "ws-opts":
+        { "path": "/", "headers": { "host": "dknbyn3lw16n5elj.gongyiyun.cf" } },
+      "server": "104.17.191.85",
+      "port": "2095",
+      "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
+      "alterId": "0",
+      "cipher": "auto",
+      "network": "ws",
+    }
+  - {
+      "type": "vmess",
+      "name": "American cloudflare node 35 | freefq",
+      "ws-opts":
+        { "path": "/imkcpyyds", "headers": { "host": "buyvm.imkcp.eu.org" } },
+      "server": "buyvm.imkcp.eu.org",
+      "port": 443,
+      "uuid": "6fb9a750-55b8-4e6e-857b-242b795399dc",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "ws",
+      "tls": true,
+    }
+  - {
+      "type": "vmess",
+      "name": "American Cloudflare Node 36 | freefq",
+      "ws-opts":
+        { "path": "/ECTCJ0DF", "headers": { "host": "lg1.trump2023.us" } },
+      "server": "190.93.244.2",
+      "port": "443",
+      "uuid": "40d496a6-ceeb-4096-baeb-4cc52b205621",
+      "alterId": "0",
+      "cipher": "auto",
+      "network": "ws",
+      "tls": true,
+    }
+  - {
+      "type": "vmess",
+      "name": "American RFENGINEERING37 | freefq",
+      "ws-opts":
+        { "path": "/9JZFDTKE", "headers": { "host": "fr1.trump2023.org" } },
+      "server": "141.193.213.10",
+      "port": "443",
+      "uuid": "2b214122-1906-428a-bbb7-a039cbb7cd5c",
+      "alterId": "0",
+      "cipher": "auto",
+      "network": "ws",
+      "tls": true,
+    }
+  - {
+      "type": "vmess",
+      "name": "Norway 38 | freefq",
+      "ws-opts": { "path": "/" },
+      "server": "146.59.92.219",
+      "port": "2096",
+      "uuid": "aca71b13-ec8a-466d-c28f-43516d3cf246",
+      "alterId": "0",
+      "cipher": "auto",
+      "network": "ws",
+    }
 
 proxy-groups:
   - name: Global choice
@@ -456,7 +927,44 @@ proxy-groups:
       - "🇬🇧GB_621 | proxypool-fly-dev"
       - "🇨🇭Switzerland_001 | anaer"
       - "🇨🇭Switzerland_002 | anaer"
-      
+      - US Microsoft Data Center 1 | freefq
+      - Japan 2 | freefq
+      - Microsoft, San Clara, California, USA 3 | freefq
+      - Japan 4 | freefq
+      - US Microsoft Data Center 5 | freefq
+      - Australia KOOWEERUPSECONDaryCollege6 | freefq
+      - OracleCorporation7, Sweden | freefq
+      - British Social Insurance Security Department 8 | freefq
+      - American cloudflare company CDN node 9 | freefq
+      - HP 10 | freefq
+      - American cloudflare company CDN node 11 | freefq
+      - American Alabanza12 | freefq
+      - American 13 | freefq
+      - American Cloudflare Node 14 | freefq
+      - American cloudflare company CDN node 15 | freefq
+      - Malaysia 16 | freefq
+      - American Cloudflare Node 17 | freefq
+      - American cloudflare company CDN node 18 | freefq
+      - Sydney, Australia 19 | freefq
+      - American cloudflare node 20 | freefq
+      - American cloudflare company CDN node 21 | freefq
+      - American cloudflare node 22 | freefq
+      - Singapore DIGITALOCEAN data center 23 | freefq
+      - American cloudflare company CDN node 24 | freefq
+      - Russia 25 | freefq
+      - Texas, USA 26 | freefq
+      - American cloudflare company CDN node 27 | freefq
+      - American Cloudflare Node 28 | freefq
+      - American Cloudflare Node 29 | freefq
+      - American 30 | freefq
+      - American Cloudflare Node 31 | freefq
+      - American Cloudflare Node 32 | freefq
+      - American cloudflare company CDN node 33 | freefq
+      - American cloudflare company CDN node 34 | freefq
+      - American cloudflare node 35 | freefq
+      - American Cloudflare Node 36 | freefq
+      - American RFENGINEERING37 | freefq
+      - Norway 38 | freefq
   - name: Delayed minimum
     type: url-test
     url: "http://www.gstatic.com/generate_204"
@@ -502,7 +1010,44 @@ proxy-groups:
       - "🇬🇧GB_621 | proxypool-fly-dev"
       - "🇨🇭Switzerland_001 | anaer"
       - "🇨🇭Switzerland_002 | anaer"
-
+      - US Microsoft Data Center 1 | freefq
+      - Japan 2 | freefq
+      - Microsoft, San Clara, California, USA 3 | freefq
+      - Japan 4 | freefq
+      - US Microsoft Data Center 5 | freefq
+      - Australia KOOWEERUPSECONDaryCollege6 | freefq
+      - OracleCorporation7, Sweden | freefq
+      - British Social Insurance Security Department 8 | freefq
+      - American cloudflare company CDN node 9 | freefq
+      - HP 10 | freefq
+      - American cloudflare company CDN node 11 | freefq
+      - American Alabanza12 | freefq
+      - American 13 | freefq
+      - American Cloudflare Node 14 | freefq
+      - American cloudflare company CDN node 15 | freefq
+      - Malaysia 16 | freefq
+      - American Cloudflare Node 17 | freefq
+      - American cloudflare company CDN node 18 | freefq
+      - Sydney, Australia 19 | freefq
+      - American cloudflare node 20 | freefq
+      - American cloudflare company CDN node 21 | freefq
+      - American cloudflare node 22 | freefq
+      - Singapore DIGITALOCEAN data center 23 | freefq
+      - American cloudflare company CDN node 24 | freefq
+      - Russia 25 | freefq
+      - Texas, USA 26 | freefq
+      - American cloudflare company CDN node 27 | freefq
+      - American Cloudflare Node 28 | freefq
+      - American Cloudflare Node 29 | freefq
+      - American 30 | freefq
+      - American Cloudflare Node 31 | freefq
+      - American Cloudflare Node 32 | freefq
+      - American cloudflare company CDN node 33 | freefq
+      - American cloudflare company CDN node 34 | freefq
+      - American cloudflare node 35 | freefq
+      - American Cloudflare Node 36 | freefq
+      - American RFENGINEERING37 | freefq
+      - Norway 38 | freefq
 rule-providers:
   iran:
     type: http
