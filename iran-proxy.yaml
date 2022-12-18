@@ -1,3 +1,4 @@
+ipv6: true
 # port of HTTP
 port: 7890
 # port of SOCKS5
@@ -9,6 +10,18 @@ log-level: debug
 external-controller: 127.0.0.1:9090
 # (HTTP and SOCKS5 in one port)
 # mixed-port: 7890
+dns:
+ enable: true
+ ipv6: false
+ listen: 0.0.0.0:53
+ enhanced-mode: fake-ip
+ default-nameserver:
+  - 178.22.122.100
+  - 185.51.200.2
+ nameserver:
+  - 178.22.122.100
+  - 185.51.200.2
+
 proxies:
   - {"name":"🇺🇸US_144 | sspool","server":"38.114.114.69","type":"ss","country":"🇺🇸US","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
   - {"name":"🇺🇸US_153 | sspool","server":"38.64.138.145","type":"ss","country":"🇺🇸US","port":8080,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
@@ -159,6 +172,9 @@ rules:
   - DOMAIN,web.whatsapp.com,DIRECT
   - DOMAIN,uk.ac.ir,DIRECT
   - DOMAIN,nut.uk.ac.ir,DIRECT
+  - DOMAIN-SUFFIX,ac.ir,DIRECT
+  - DOMAIN-SUFFIX,firebase.google.com,DIRECT
+  - DOMAIN-SUFFIX,developer.android.com,DIRECT
   - SRC-IP-CIDR,192.168.1.201/32,DIRECT
   - IP-CIDR,127.0.0.0/8,DIRECT
   - IP-CIDR6,2620:0:2d0:200::7/32,DIRECT
